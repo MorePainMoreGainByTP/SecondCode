@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal >
+    <dbname value="BookStore"/>
+    <version value="3"/>
+    <list>
+        <mapping class="com.example.swjtu.secondcode.entity.Book"/>
+        <mapping class="com.example.swjtu.secondcode.entity.Category"/>
+    </list>
+</litepal>

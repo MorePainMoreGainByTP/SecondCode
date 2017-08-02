@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="你好"
+        android:textColor="#ffffff"
+        app:layout_heightPercent="10%"
+        app:layout_widthPercent="20%" />
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_centerInParent="true"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="hello"
+        android:textColor="#ffffff"
+        app:layout_heightPercent="50%"
+        app:layout_widthPercent="50%" />
+
+    <TextView
+        android:layout_below="@+id/hello"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="world"
+        android:textColor="#ffffff"
+        app:layout_heightPercent="10%"
+        app:layout_widthPercent="80%" />
+</android.support.percent.PercentRelativeLayout>
