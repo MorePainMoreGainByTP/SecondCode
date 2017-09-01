@@ -78,6 +78,9 @@ public class MainActivity extends BaseActivity {
     public void onCamera(View v) {
         startActivity(new Intent(this, CameraActivity.class));
     }
+    public void onXML(View v) {
+        startActivity(new Intent(this, ParserXMLActivity.class));
+    }
 
     public void onContacts(View v) {
         startActivity(new Intent(this, ContactsPhoneActivity.class));

@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/SecondCode.iml" filepath="$PROJECT_DIR$/SecondCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/broadcasttest/broadcasttest.iml" filepath="$PROJECT_DIR$/broadcasttest/broadcasttest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/foregroundservice/foregroundservice.iml" filepath="$PROJECT_DIR$/foregroundservice/foregroundservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/printtest/printtest.iml" filepath="$PROJECT_DIR$/printtest/printtest.iml" />
     </modules>
   </component>

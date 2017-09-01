@@ -1,1 +1,1 @@
-include ':app', ':broadcasttest', ':printtest'
+include ':app', ':broadcasttest', ':printtest', ':foregroundservice'
